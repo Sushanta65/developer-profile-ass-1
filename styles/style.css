@@ -169,7 +169,6 @@ body {
 .current-target-full{
     width: 80%;
     margin: 50px auto;
-    border: 1px solid red;
 }
 .current-target{
     width: 80%;
@@ -182,4 +181,40 @@ body {
     text-transform: capitalize;
     font-size: 24px;
     color: rgb(2, 14, 41);
+}
+/* Topics */
+.topics{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.topic{
+    width: 390px;
+    background: rgba(255, 76, 30, 0.3);
+    padding: 30px 20px;
+    border-radius: 12px;
+}
+.topic-bg-1{
+    background: rgba(255, 76, 30, 0.05);
+}
+.topic-bg-2{
+    background: rgba(0, 76, 232, 0.05);
+}.topic-bg-3{
+    background: rgba(255, 223, 0, 0.05);
+}
+.topic img{
+    width: 50px;
+    padding-bottom: 15px;
+}
+.topic h3{
+    font-size: 22px;
+    padding-bottom: 25px;
+    color: rgb(13, 19, 33);;
+}
+.topic p{
+    color: rgb(13, 19, 33);;
+    padding-bottom: 25px;
+}
+.topic a{
+    color: rgb(13, 19, 33);;
 }
