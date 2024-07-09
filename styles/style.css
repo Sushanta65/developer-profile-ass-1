@@ -1,6 +1,166 @@
-/* Site Styles start from here */
+/* Font Families Link */
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* Navbar Styles */
-.navbar{
-    display: flex;
+/* Site Styles start from here */
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+  font-family: "Azeret Mono", monospace;
+}
+/* Navbar Styles */
+.navbar {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Logo */
+.logo h1 {
+  font-size: 30px;
+  font-family: "Azeret Mono", monospace;
+}
+/* Navbar Btn / Download Resume Button */
+.navbar-btn {
+  list-style: none;
+}
+.navbar-btn li button {
+  border: 1px solid black;
+  background: white;
+  padding: 10px 15px;
+  font-family: "Azeret Mono", monospace;
+  transition-duration: 300ms;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.navbar-btn li button:hover {
+  background: #eceaea;
+}
+
+/* Banner Section Styles Starts Here */
+
+.banner-section {
+  width: 100%;
+  text-align: center;
+  padding: 50px 50px;
+  background-image: url("../images/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-details {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.banner-title {
+  padding-bottom: 20px;
+  line-height: 50px;
+  color: rgb(2, 14, 41);
+}
+.banner-description {
+  padding-bottom: 20px;
+  line-height: 30px;
+}
+#contact-me-btn {
+  padding: 10px 15px;
+  font-family: Azeret mono;
+  background: rgb(13, 19, 33);
+  border-radius: 5px;
+  color: white;
+  outline: none;
+  border: 1px solid rgb(13, 19, 33);
+  transition-duration: 300ms;
+  cursor: pointer;
+}
+#contact-me-btn:hover {
+  background: rgb(9, 26, 70);
+}
+
+/* Why Development Section Styles Starts Here */
+.why-development-full {
+  width: 80%;
+  margin: 100px auto;
+  padding: 80px 0;
+  background: rgba(13, 19, 33, 0.02);
+}
+.why-development-head{
+    width: 80%;
+    text-align: center;
+    padding: 0 0 50px 0;
+    margin: 0 auto;
+}
+.why-dev-title{
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.why-development-content{
+    padding: 20px 0;
+}
+.why-dev-description{
+    font-size: 15px;
+    color: rgb(13, 19, 33);
+}
+
+.reason{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.reason-description{
+    width: 480px;
+}
+.reason-1-img{
+    width: 260px;
+}
+.reason-title{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: rgb(2, 14, 41);
+}
+.reason-details{
+    font-size: 15px;
+    color: rgb(13, 19, 33);
+    padding-bottom:20px ;
+}
+
+/* Global Button Style */
+.learn-more-btn{
+    padding: 7px 15px;
+    border: 1px solid (13, 19, 33);
+    margin-top: 10px;
+}
+
+/* Why Development Section Styles Ends Here */
+
+/* My Inspiration Section Styles Starts Here */
+.inspiration-full{
+    width: 80%;
+    margin: 0 auto;
+}
+.inspiration-head{
+    width: 80%;
+    text-align: center;
+    padding: 0 0 50px 0;
+    margin: 0 auto;
+}
+.inspiration-title{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: rgb(2, 14, 41);
+}
+.video-section{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+/* My Inspiration Section Styles Starts Here */
