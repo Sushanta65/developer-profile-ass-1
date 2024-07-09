@@ -164,3 +164,22 @@ body {
     padding: 30px 0;
 }
 /* My Inspiration Section Styles Starts Here */
+
+/* Current Target Section Styles Start Here */
+.current-target-full{
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid red;
+}
+.current-target{
+    width: 80%;
+    text-align: center;
+    padding: 0 0 50px 0;
+    margin: 0 auto;
+}
+.current-title{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: rgb(2, 14, 41);
+}
