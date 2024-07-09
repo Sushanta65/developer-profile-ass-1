@@ -218,3 +218,10 @@ body {
 .topic a{
     color: rgb(13, 19, 33);;
 }
+
+/* Support Section Styles */
+.support-section{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
