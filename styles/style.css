@@ -224,4 +224,41 @@ body {
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    background-image: url('../images/handshake.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 380px;
+    color: white;
+}
+
+.support-section h3{
+    font-size: 24px;
+    padding: 80px 0 30px 0;
+    font-size: 30px;
+}
+.support-section p{
+    padding: 0 0 30px 0;
+}
+.support-section input{
+    width: 550px;
+    height: 55px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    outline: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.support-btn{
+    padding: 17px 35px;
+    font-family: Azeret mono;
+    font-size: 16px;
+    border: none;
+    transition-duration: 300ms;
+    cursor: pointer;
+}
+.support-btn:hover{
+    background: #2a0bb1;
+    color: white;
 }
