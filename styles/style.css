@@ -262,3 +262,18 @@ body {
     background: #2a0bb1;
     color: white;
 }
+
+/* Footer Styles */
+.footer-section{
+    width: 100%;
+    background: rgba(13, 19, 33, 0.03);
+    padding: 10px ;
+    margin-top: 80px;
+}
+.footer-content{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
