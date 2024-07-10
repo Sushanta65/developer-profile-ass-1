@@ -187,6 +187,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin-top: 20px;
+    gap: 20px;
 }
 .topic{
     width: 390px;
@@ -278,3 +279,5 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+/* Allmost complete now */
